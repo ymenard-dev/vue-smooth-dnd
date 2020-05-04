@@ -1,5 +1,5 @@
 /* eslint-disable curly */
-import { smoothDnD, dropHandlers } from 'smooth-dnd';
+import { smoothDnD, dropHandlers } from '@ymenard-dev/smooth-dnd';
 import { getTagProps, validateTagProp } from './utils';
 
 smoothDnD.dropHandler = dropHandlers.reactDropHandler().handler;
